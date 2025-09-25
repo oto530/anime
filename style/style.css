@@ -1,0 +1,126 @@
+*{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@font-face {
+    font-family:istokreg ;
+    src: url(../fonts/IstokWeb-Regular.ttf);
+}
+@font-face {
+    font-family: istokbold;
+    src: url(../fonts/IstokWeb-Bold.ttf);
+}
+@font-face {
+    font-family:oisreg  ;
+    src: url(../fonts/JacquesFrancois-Regular.ttf);
+}
+body{
+    background-color: #000000;
+}
+h1 a{
+    color: #ffffff;
+}
+header h2{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+footer a{
+   color: #ffffff; 
+   font-size: 36px;
+}
+footer img{
+width: 32px ;
+height: 34px;
+}
+footer{
+    font-family:oisreg ;
+    padding:105px 226px 180px 226px;
+    border-top: 1px solid #ffffff;
+}
+header {
+   padding: 100px;
+}
+header img{
+    padding: 42px 4px;
+}
+nav{ 
+ /* margin-right: 369px  ; */
+}
+nav ul{
+    width:615px;
+}
+.erti{
+    width: 247px;
+}
+.main div{
+padding-left: 165px;
+padding-right: 155px;
+margin-bottom: 89px;
+}
+.deku{
+    width: 409px;
+    height: 1250px;
+    margin: 0px  auto;
+
+}
+.deku p{
+    color: #ffffff;
+}
+.tor{
+    width: 89px;
+    height: 56px;
+    margin-left: 300px;
+}
+.surati{
+height: 18px;
+}
+.auu{
+    width: 308px;
+    height: 42px;
+    text-align: center;
+    font-family: oisreg;
+}
+.gela{
+    font-family:istokbold ;
+}
+.barkala{
+    font-family:istokreg ;
+}
+.isari{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.asimov{
+    font-size:96px;
+    color: #ffffff;
+    text-align: center;
+}
+.ex{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+.searchs{
+    width:500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+header .searchs img{
+    padding: 6px 8px;
+}
+.searchs input{
+width: 460px;
+border: none;
+outline: none;
+}
